@@ -1,0 +1,72 @@
+API 엔드포인트: https://cloud.ibm.com
+
+Email> 19681018@konyang.ac.kr
+
+Password>
+인증 중...
+확인
+
+대상 지정된 계정 건양대학교 (e7cb6fd64f494ff4be9494a2fa9a59b5)
+
+
+지역 선택(또는 Enter를 눌러 건너뜀):
+1. au-syd
+2. in-che
+3. jp-osa
+4. jp-tok
+5. kr-seo
+6. eu-de
+7. eu-gb
+8. ca-tor
+9. us-south
+10. us-east
+11. br-sao
+번호 입력>
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:
+사용자:              19681018@konyang.ac.kr
+계정:                건양대학교 (e7cb6fd64f494ff4be9494a2fa9a59b5)
+리소스 그룹:         대상으로 지정된 리소스 그룹이 없습니다.'ibmcloud target -g RESOURCE_GROUP' 명령을 사용하십시오.
+CF API 엔드포인트:
+조직:
+영역:
+
+C:\Users\Administrator>ibmcloud resource groups
+19681018@konyang.ac.kr(으)로 e7cb6fd64f494ff4be9494a2fa9a59b5 계정에서 모든 리소스 그룹 검색 중...
+확인
+이름      ID                                 기본 그룹   상태
+Default   a6c5063e584d4f54907ba5beef24b993   true        ACTIVE
+
+C:\Users\Administrator>ibmcloud target -g Default
+대상 지정된 리소스 그룹 Default
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:
+사용자:              19681018@konyang.ac.kr
+계정:                건양대학교 (e7cb6fd64f494ff4be9494a2fa9a59b5)
+리소스 그룹:         Default
+CF API 엔드포인트:
+조직:
+영역:
+
+C:\Users\Administrator>ibmcloud target -o 19681018 -s dev2 --cf-api https://api.us-south.cf.cloud.ibm.com
+대상 지정된 Cloud Foundry(https://api.us-south.cf.cloud.ibm.com)
+
+대상 지정된 조직 19681018
+
+대상 지정된 영역 dev2
+
+
+
+API 엔드포인트:      https://cloud.ibm.com
+지역:
+사용자:              19681018@konyang.ac.kr
+계정:                건양대학교 (e7cb6fd64f494ff4be9494a2fa9a59b5)
+리소스 그룹:         Default
+CF API 엔드포인트:   https://api.us-south.cf.cloud.ibm.com(API 버전: 2.169.0)
+조직:                19681018
+영역:                dev2
