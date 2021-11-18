@@ -1,0 +1,14 @@
+C:\>aws --profile default --endpoint-url https://s3.us-south.cloud-object-storage.appdomain.cloud s3 cp blank2.png s3://2021iot/blank2.png --metadata work=Qmark
+upload: .\blank2.png to s3://2021iot/blank2.png
+
+C:\>aws --profile default --endpoint-url https://s3.us-south.cloud-object-storage.appdomain.cloud s3api head-object --bucket 2021iot --key blank2.png
+{
+    "AcceptRanges": "bytes",
+    "LastModified": "2021-11-18T08:00:06+00:00",
+    "ContentLength": 290756,
+    "ETag": "\"2ab68370de58270f920ae8353afd88d4\"",
+    "ContentType": "image/png",
+    "Metadata": {
+        "work": "Qmark"
+    }
+}
